@@ -6,17 +6,28 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
+import com.zoopla.utility.EventListener;
 import com.zoopla.utility.Testutility;
 
 public class TestBase {
 
 	public static WebDriver driver;
-	public static Properties prop;
+	public static Properties prop; 
 	
+	public static WebElement webelw;
+	public static Logger log = Logger.getLogger(TestBase.class);
+	
+	/***********Created event listener obj******************/
+	public  static EventFiringWebDriver event_driver;
+	public static EventListener elistener;
+
 	public TestBase() {
 		
 	try {
@@ -45,7 +56,11 @@ public class TestBase {
 		System.setProperty("webdriver.gecko.driver",prop.getProperty("geckovalue"));
 		driver = new FirefoxDriver();
 			}
-	
+	/********* Now create object of EventListerHandler to register it with EventFiringWebDriver*********/
+	event_driver = new  EventFiringWebDriver(driver);
+	elistener = new  EventListener();
+	event_driver.register(elistener);
+	driver = event_driver;
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 

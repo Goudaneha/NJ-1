@@ -24,7 +24,7 @@ public class Fiftyproptest extends TestBase{
 	
 	@BeforeTest
 	public void setup() throws InterruptedException {
-		/***************************Test Execution starts******************************/
+		/***************************Fifty property Test Execution starts******************************/
 		init();
 		searchpage = new Searchpage();
 		fiftypage = new Fiftyproppage();
@@ -38,36 +38,36 @@ public class Fiftyproptest extends TestBase{
 	
 	@Test(priority = 1,description = "Agent Logo")
 	public void Varifyagentlogotest() throws InterruptedException {
-		//log.info("********Starts Agent log test*********");		
+		log.info("********Starts Agent log test*********");		
 		fiftypage.agentlogo();		
-		//log.info("****************ending Agent log test*********************");
+		log.info("****************ending Agent log test*********************");
 
 	}
 	
 	@Test(priority = 2,description = "Agent Name")
 	public void Varifyagentnametest() throws InterruptedException {
-		//log.info("********starts Agent name test*********");
+		log.info("********starts Agent name test*********");
 		fiftypage.agentname();
-		//log.info("********ending Agent name test*********");
+		log.info("********ending Agent name test*********");
 	}
 	
 	@Test(priority = 3,description = "Agent Mobil number")
 	public void Varifyagentnotest() throws InterruptedException {
-		//log.info("*******************starts Agent phone no test******************");
+		log.info("*******************starts Agent phone no test******************");
 		fiftypage.agentmobileno();
-		//log.info("********ending Agent name test*********");
+		log.info("********ending Agent name test*********");
 	}
 	
 	@Test(priority = 4,description = "validate agent name")
 	public void Validateagentnametest() throws InterruptedException {
-		//log.info("*************starts Agent name varification*****************");
+		log.info("*************starts Agent name varification*****************");
 		fiftypage.agentnamepage();
-		//log.info("*************ending Agent name varification*****************");
+		log.info("*************ending Agent name varification*****************");
 
 	}
 	@AfterTest
 	public void teardown() {
-		//log.info("********************Test case execution terminates*******************");
-		//driver.close();
+		log.info("********************Test case execution terminates*******************");
+		driver.close();
 	}
 }

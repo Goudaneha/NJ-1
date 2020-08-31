@@ -17,7 +17,7 @@ public class Fiftyproppage extends TestBase {
 	}
 	
 	public String agentlogo() {
-	WebElement 	webelw = new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOfElementLocated((By.xpath("(//div[@class='ui-agent__logo']//img[@class='js-lazy-loaded'])[1]"))));
+		webelw = new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOfElementLocated((By.xpath("(//div[@class='ui-agent__logo']//img[@class='js-lazy-loaded'])[1]"))));
 		//WebElement fifty_agent_logo = driver.findElement(By.xpath("(//div[@class='ui-agent__logo']//img[@class='js-lazy-loaded'])[1]"));
 		String agentlogo = webelw.getAttribute("alt");
 		Assert.assertTrue(true, agentlogo);
