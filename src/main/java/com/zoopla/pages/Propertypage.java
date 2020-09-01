@@ -11,6 +11,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.zoopla.testbase.TestBase;
 
+import io.qameta.allure.Step;
+
 public class Propertypage extends TestBase {
 	@FindBy(xpath = "//div[@class=\"css-1mjljx5 eson0er0\"]//a[@aria-label=\"Zoopla\"]")
 	WebElement proppagelogo;
@@ -29,14 +31,17 @@ public class Propertypage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
+	@Step("Varify Property page title test...........")
 	public String ZooplapropTitle() {
 		return driver.getTitle();
 	}
 	
+	@Step("Varify Property page logo test...........")
 	public boolean Zooplalogo() {
 		return proppagelogo.isDisplayed();
 	}
 	
+	@Step("Varify list of property values test...........")
 	public void Zooplalistofpropvalues() {
 		System.out.println(".........List of property values in descending order................");
         int listofprop = price_list.size();
@@ -55,6 +60,7 @@ public class Propertypage extends TestBase {
 		  System.out.println("5th elemet from descending order list: "+alist.get(i=5));	
 	}
 	
+	@Step("Varify value of Fifty Property test...........")
 	public Fiftyproppage ZooplaFifthPropValue() throws InterruptedException {
 	 int listofprop = price_list.size();
 	 for(j=1;j<=listofprop;j++) {

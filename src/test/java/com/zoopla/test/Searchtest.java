@@ -9,6 +9,11 @@ import com.zoopla.pages.Propertypage;
 import com.zoopla.pages.Searchpage;
 import com.zoopla.testbase.TestBase;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+
 public class Searchtest extends TestBase{
 
 	Searchpage homepage;
@@ -26,9 +31,9 @@ public class Searchtest extends TestBase{
 		}
 	
 	@Test(priority = 1,description = "Zoopla Home Page")
-//	@Severity(SeverityLevel.CRITICAL)
-//	@Description("Test case description : Zoopla Home Page Test")
-//	@Story("Story Name : Varify Home page Label Test")
+	@Severity(SeverityLevel.CRITICAL)
+	@Description("Test case description : Zoopla Home Page Test")
+	@Story("Story Name : Varify Home page Label Test")
 	public void VarifyHomepagelabeltest() throws InterruptedException {
 		log.info("******************starts Label test***********************");
 		
@@ -40,9 +45,9 @@ public class Searchtest extends TestBase{
 	}
 	
 	@Test(priority = 2,description = "Zoopla City Search Page")
-//	@Severity(SeverityLevel.NORMAL)
-//	@Description("Test case description : Zoopla City Search Page Test")
-//	@Story("Story Name : Varify City Name Test")
+	@Severity(SeverityLevel.NORMAL)
+	@Description("Test case description : Zoopla City Search Page Test")
+	@Story("Story Name : Varify City Name Test")
 	public void Varifycitynametest() throws InterruptedException {
 		log.info("****************starts city name test*********************");
 		

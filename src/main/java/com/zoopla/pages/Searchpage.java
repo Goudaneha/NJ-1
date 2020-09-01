@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.zoopla.testbase.TestBase;
 
+import io.qameta.allure.Step;
+
 public class Searchpage extends TestBase {
 
 	@FindBy(xpath = "//div[@class='ui-cookie-consent-choose']//button[2]")
@@ -25,8 +27,7 @@ public class Searchpage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	//@Step("Varify Home Page Label Test Step......")
-	
+	@Step("Varify Home Page Label Test Step......")	
 	public String pagelabel() throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
     	js.executeScript("arguments[0].click();", acceptcookies);
@@ -34,8 +35,7 @@ public class Searchpage extends TestBase {
 		return searchpagelabel.getText();
 	}
 	
-	//@Step("Search Home with City Name :{0}")
-	
+	@Step("Search Home with City Name :{0}") //{0}-- it with display city name at report
 	public Propertypage proppertysearch(String name) throws InterruptedException {
 		textbox.sendKeys(name);		
 		Thread.sleep(2000);

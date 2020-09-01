@@ -9,6 +9,11 @@ import com.zoopla.pages.Propertypage;
 import com.zoopla.pages.Searchpage;
 import com.zoopla.testbase.TestBase;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+
 public class Propertytest extends TestBase{
 
 	Propertypage prop_page;
@@ -32,7 +37,10 @@ public class Propertytest extends TestBase{
 		prop_page = home_page.proppertysearch(prop.getProperty("cityname"));
 			}
 	
-	@Test(priority = 1,description = "Zoopla Search Page Title")
+	@Test(priority = 1,description = "Zoopla Title Test")
+	@Severity(SeverityLevel.NORMAL)
+	@Description("Test case description : Zoopla Title Test")
+	@Story("Story Name : Varify Title Test")
 	public void Varifytitletest() throws InterruptedException {
 		log.info("****************starts Property page title test*********************");
 		String proptitle = prop_page.ZooplapropTitle();	
@@ -44,6 +52,9 @@ public class Propertytest extends TestBase{
 	}
 	
 	@Test(priority = 2,description = "Zoopla Property List Page")
+	@Severity(SeverityLevel.MINOR)
+	@Description("Test case description : Zoopla Property List Test")
+	@Story("Story Name : Varify Property List Test")
 	public void VarifyListofPropTest() throws InterruptedException {
 		log.info("****************strats Property list values test*********************");
 		boolean logotest = prop_page.Zooplalogo();
@@ -62,6 +73,9 @@ public class Propertytest extends TestBase{
 
 	}
 	@Test(priority = 4,description = "Get Fifty property values from list")
+	@Severity(SeverityLevel.CRITICAL)
+	@Description("Test case description : Zoopla Fifty property value Test")
+	@Story("Story Name : Varify Fifty property value Test")
 	public void Varify5thPropertyValuesTest() throws InterruptedException {
 		log.info("****************starts click on fifth Property values test*********************");
 		prop_page.ZooplaFifthPropValue();

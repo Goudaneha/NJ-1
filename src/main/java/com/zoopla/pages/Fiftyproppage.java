@@ -8,6 +8,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import com.zoopla.testbase.TestBase;
 
+import io.qameta.allure.Step;
+
 public class Fiftyproppage extends TestBase {
 	WebElement fifty_agent_name;
 	String agentname;
@@ -16,6 +18,7 @@ public class Fiftyproppage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
+	@Step("Varify Fifty property agent logo test...........")
 	public String agentlogo() {
 		webelw = new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOfElementLocated((By.xpath("(//div[@class='ui-agent__logo']//img[@class='js-lazy-loaded'])[1]"))));
 		//WebElement fifty_agent_logo = driver.findElement(By.xpath("(//div[@class='ui-agent__logo']//img[@class='js-lazy-loaded'])[1]"));
@@ -26,6 +29,7 @@ public class Fiftyproppage extends TestBase {
 		return agentlogo;		
 	}
 	
+	@Step("Varify Fifty property agent name test...........")
 	public String agentname() {
 		fifty_agent_name = new WebDriverWait(driver, 20)
 		.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//div[@class='ui-agent__text']//following::h4[@class='ui-agent__name'])[1]")));
@@ -36,6 +40,7 @@ public class Fiftyproppage extends TestBase {
 		return agentname;
 	}
 	
+	@Step("Varify Fifty property agent phone number test...........")
 	public String agentmobileno() {
 		WebElement fifty_agent_phoneno = new WebDriverWait(driver, 20)
 		.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//p[@class='ui-agent__tel ui-agent__text']//a)[1]")));
@@ -46,6 +51,7 @@ public class Fiftyproppage extends TestBase {
 		return agentphone;
 	}
 	
+	@Step("Varify Fifty property agent name with agent page agent name test...........")
 	public void agentnamepage() {
 		WebElement aname = driver.findElement(By.xpath("//div[@id='main-content']//b[1]"));
 		//WebElement agname = driver.findElement(By.xpath("(//div[@class=\"dev-detail\"]//img)[1]" + "//div[@class=\"dev-detail\"]//h1"));

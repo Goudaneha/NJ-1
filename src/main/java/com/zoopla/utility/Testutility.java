@@ -17,6 +17,6 @@ public class Testutility extends TestBase {
 	public static void takeScreenshot_failedtestEndOfTest() throws IOException {
 		File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		//String currentDir = System.getProperty("user.dir");
-		FileUtils.copyFile(srcFile, new File("D:\\NJ\\TestAutomation-1" + "/screenshots/" + System.currentTimeMillis() + ".png") );
+		FileUtils.copyFile(srcFile, new File("D://NJ//TestAutomation-1" + "/screenshots/" + System.currentTimeMillis() + ".png") );
 }
 }
