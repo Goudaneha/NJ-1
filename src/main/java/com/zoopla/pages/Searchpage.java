@@ -27,6 +27,7 @@ public class Searchpage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
+	/*********Allure Report*************/
 	@Step("Varify Home Page Label Test Step......")	
 	public String pagelabel() throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
