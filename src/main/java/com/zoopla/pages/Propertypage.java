@@ -45,7 +45,7 @@ public class Propertypage extends TestBase {
 	public void Zooplalistofpropvalues() {
 		System.out.println(".........List of property values in descending order................");
         int listofprop = price_list.size();
-		for(i=1;i<=listofprop;i++)
+		for(i=1; i<=listofprop; i++)
 		{
 		String val =driver.findElement(By.xpath("//*[@class='listing-results-right clearfix']"
 				+ "//following::a[@class='listing-results-price text-price']["+i+"]")).getText();
@@ -63,13 +63,12 @@ public class Propertypage extends TestBase {
 	@Step("Varify value of Fifty Property test...........")
 	public Fiftyproppage ZooplaFifthPropValue() throws InterruptedException {
 	 int listofprop = price_list.size();
-	 for(j=1;j<=listofprop;j++) {
+	 for(j=1; j<=listofprop; j++) {
 	  if(j==5) {
-		WebElement Fifty_prop_val = driver.findElement(By.xpath("//*[@class='listing-results-right clearfix']"
-							+ "//following::a[@class='listing-results-price text-price']["+j+"]"));
-	String fiftyval = Fifty_prop_val.getText();
-		Thread.sleep(3000);
-		Fifty_prop_val.click();		 	
+		WebElement Fifty_prop_val = driver.findElement(By.xpath("//*[@class='listing-results-right clearfix'] "
+				+  "//following::a[@class='listing-results-price text-price']["+j+"]"));
+		String fiftyval = Fifty_prop_val.getText();
+		Fifty_prop_val.click();	
 		 //	driver.switchTo().activeElement();
 		 	System.out.println("5th property value is :" + fiftyval);
 		 	System.out.println("Title of 5th property is : "+driver.getTitle());	

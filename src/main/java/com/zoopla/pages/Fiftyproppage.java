@@ -20,9 +20,9 @@ public class Fiftyproppage extends TestBase {
 	
 	@Step("Varify Fifty property agent logo test...........")
 	public String agentlogo() {
-		webelw = new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOfElementLocated((By.xpath("(//div[@class='ui-agent__logo']//img[@class='js-lazy-loaded'])[1]"))));
-		//WebElement fifty_agent_logo = driver.findElement(By.xpath("(//div[@class='ui-agent__logo']//img[@class='js-lazy-loaded'])[1]"));
-		String agentlogo = webelw.getAttribute("alt");
+		//webelw = new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOfElementLocated((By.xpath("(//div[@class='ui-agent__logo']//img[@class='js-lazy-loaded'])[1]"))));
+		WebElement fifty_agent_logo = driver.findElement(By.xpath("(//div[@class='ui-agent__logo']//img[@class='js-lazy-loaded'])[1]"));
+		String agentlogo =  fifty_agent_logo.getAttribute("alt");
 		Assert.assertTrue(true, agentlogo);
 		System.out.println(".............................Agent Details are as follows..........................................");
 		System.out.println("Agent Logo Name : " + agentlogo);
@@ -31,9 +31,9 @@ public class Fiftyproppage extends TestBase {
 	
 	@Step("Varify Fifty property agent name test...........")
 	public String agentname() {
-		fifty_agent_name = new WebDriverWait(driver, 20)
-		.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//div[@class='ui-agent__text']//following::h4[@class='ui-agent__name'])[1]")));
-	   //fifty_agent_name = driver.findElement(By.xpath("(//div[@class='ui-agent__text']//following::h4[@class='ui-agent__name'])[1]"));
+//		fifty_agent_name = new WebDriverWait(driver, 20)
+//		.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//div[@class='ui-agent__text']//following::h4[@class='ui-agent__name'])[1]")));
+	   fifty_agent_name = driver.findElement(By.xpath("(//div[@class='ui-agent__text']//following::h4[@class='ui-agent__name'])[1]"));
 	   agentname =	fifty_agent_name.getText();
 		System.out.println("agent name : " + agentname );
 		Assert.assertTrue(true, agentname);
@@ -42,9 +42,9 @@ public class Fiftyproppage extends TestBase {
 	
 	@Step("Varify Fifty property agent phone number test...........")
 	public String agentmobileno() {
-		WebElement fifty_agent_phoneno = new WebDriverWait(driver, 20)
-		.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//p[@class='ui-agent__tel ui-agent__text']//a)[1]")));
-		//WebElement fifty_agent_phoneno = driver.findElement(By.xpath("(//p[@class='ui-agent__tel ui-agent__text']//a)[1]"));
+//		WebElement fifty_agent_phoneno = new WebDriverWait(driver, 30)
+//		.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//p[@class='ui-agent__tel ui-agent__text']//a)[1]")));
+		WebElement fifty_agent_phoneno = driver.findElement(By.xpath("(//p[@class='ui-agent__tel ui-agent__text']//a)[1]"));
 		String agentphone =fifty_agent_phoneno.getAttribute("href");
 		System.out.println("agent phone no : " + agentphone);
 		fifty_agent_name.click();

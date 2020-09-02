@@ -48,7 +48,7 @@ public class Fiftyproptest extends TestBase{
 	public void Varifyagentlogotest() throws InterruptedException {
 		log.info("********Starts Agent log test*********");		
 		fiftypage.agentlogo();		
-		log.info("****************ending Agent log test*********************");
+	log.info("****************ending Agent log test*********************");
 
 	}
 	
@@ -57,9 +57,9 @@ public class Fiftyproptest extends TestBase{
 	@Description("Test case description : Zoopla Fifty property Agent  Name Test")
 	@Story("Story Name : Varify Fifty property Agent Name Test")
 	public void Varifyagentnametest() throws InterruptedException {
-		log.info("********starts Agent name test*********");
+		//log.info("********starts Agent name test*********");
 		fiftypage.agentname();
-		log.info("********ending Agent name test*********");
+		//log.info("********ending Agent name test*********");
 	}
 	
 	@Test(priority = 3,description = "Agent Mobil Number")
@@ -67,9 +67,9 @@ public class Fiftyproptest extends TestBase{
 	@Description("Test case description : Zoopla Fifty property Agent Mobil Number Test")
 	@Story("Story Name : Varify Fifty property Agent Mobil Number Test")
 	public void Varifyagentnotest() throws InterruptedException {
-		log.info("*******************starts Agent phone no test******************");
+	//	log.info("*******************starts Agent phone no test******************");
 		fiftypage.agentmobileno();
-		log.info("********ending Agent name test*********");
+	//	log.info("********ending Agent name test*********");
 	}
 	
 	@Test(priority = 4,description = "validate agent name")
@@ -77,14 +77,14 @@ public class Fiftyproptest extends TestBase{
 	@Description("Test case description : Zoopla Fifty property Agent Logo Test")
 	@Story("Story Name : Varify Fifty property Agent Logo Test")
 	public void Validateagentnametest() throws InterruptedException {
-		log.info("*************starts Agent name varification*****************");
+	//	log.info("*************starts Agent name varification*****************");
 		fiftypage.agentnamepage();
-		log.info("*************ending Agent name varification*****************");
+	//	log.info("*************ending Agent name varification*****************");
 
 	}
 	@AfterTest
 	public void teardown() {
-		log.info("********************Test case execution terminates*******************");
+	//	log.info("********************Test case execution terminates*******************");
 		driver.close();
 	}
 }

@@ -35,13 +35,13 @@ public class Searchtest extends TestBase{
 	@Description("Test case description : Zoopla Home Page Test")
 	@Story("Story Name : Varify Home page Label Test")
 	public void VarifyHomepagelabeltest() throws InterruptedException {
-		log.info("******************starts Label test***********************");
+//		log.info("******************starts Label test***********************");
 		
 		String labelofpage = homepage.pagelabel();
 		System.out.println("searchpagelabel : "+ labelofpage);
 		Assert.assertEquals(labelofpage, "Search properties for sale or to rent in the UK","search page label not found");
 		
-		log.info("******************ending Label test***********************");
+	//	log.info("******************ending Label test***********************");
 	}
 	
 	@Test(priority = 2,description = "Zoopla City Search Page")
@@ -49,16 +49,16 @@ public class Searchtest extends TestBase{
 	@Description("Test case description : Zoopla City Search Page Test")
 	@Story("Story Name : Varify City Name Test")
 	public void Varifycitynametest() throws InterruptedException {
-		log.info("****************starts city name test*********************");
+//		log.info("****************starts city name test*********************");
 		
 		proppage = homepage.proppertysearch(prop.getProperty("cityname"));
 		
-		log.info("****************ending city name test*********************");
+//		log.info("****************ending city name test*********************");
 	}
 	
 	@AfterTest
 	public void teardown() {
-		log.info("******************Test Execution Terminated***********************");
+//		log.info("******************Test Execution Terminated***********************");
 		driver.quit();
 	}
 }
