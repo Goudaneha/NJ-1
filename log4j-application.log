@@ -1,0 +1,35 @@
+2020-09-03 03:51:40,954  INFO [main] TestBase:28 - ***************************Property Test Execution starts******************************
+2020-09-03 03:52:35,083  INFO [main] TestBase:28 - ******************Search Home Test Execution starts***********************
+2020-09-03 03:54:17,860  INFO [main] TestBase:38 - ******************starts Label test***********************
+2020-09-03 03:54:20,084  INFO [main] TestBase:44 - ******************ending Label test***********************
+2020-09-03 03:54:22,305  INFO [main] TestBase:52 - ****************starts city name test*********************
+2020-09-03 03:54:42,887  INFO [main] TestBase:56 - ****************ending city name test*********************
+2020-09-03 03:54:43,016  INFO [main] TestBase:45 - ****************starts Property page title test*********************
+2020-09-03 03:54:51,562  INFO [main] TestBase:50 - ****************ending Property page title test*********************
+2020-09-03 03:54:51,575  INFO [main] TestBase:59 - ****************strats Property list values test*********************
+2020-09-03 03:54:52,970  INFO [main] TestBase:63 - ****************ending Property list values test*********************
+2020-09-03 03:54:52,982  INFO [main] TestBase:69 - ****************strats print Property values test*********************
+2020-09-03 03:55:11,198  INFO [main] TestBase:72 - ****************ending print Property values test*********************
+2020-09-03 03:55:11,211  INFO [main] TestBase:80 - ****************starts click on fifth Property values test*********************
+2020-09-03 03:55:19,575  INFO [main] TestBase:82 - ****************ending click on fifth Property values test*********************
+2020-09-03 03:55:19,595  INFO [main] TestBase:49 - ********Starts Agent log test*********
+2020-09-03 03:55:30,065  INFO [main] TestBase:51 - ****************ending Agent log test*********************
+2020-09-03 03:55:30,077  INFO [main] TestBase:60 - ********starts Agent name test*********
+2020-09-03 03:55:30,257  INFO [main] TestBase:62 - ********ending Agent name test*********
+2020-09-03 03:55:30,271  INFO [main] TestBase:70 - *******************starts Agent phone no test******************
+2020-09-03 03:55:35,532  INFO [main] TestBase:72 - ********ending Agent name test*********
+2020-09-03 03:55:35,575  INFO [main] TestBase:80 - *************starts Agent name varification*****************
+2020-09-03 03:55:35,911  INFO [main] TestBase:82 - *************ending Agent name varification*****************
+2020-09-03 03:55:35,926  INFO [main] TestBase:87 - ********************Test case execution terminates*******************
+2020-09-03 03:55:49,738  INFO [main] TestBase:88 - ***************************Test Execution Terminates******************************
+2020-09-03 03:55:50,722  INFO [main] TestBase:61 - ******************Test Execution Terminated***********************
+2020-09-03 03:55:56,782 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-09-03 03:55:56,783 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-09-03 03:55:56,786 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-09-03 03:55:56,792 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-09-03 03:55:56,797 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nehaashokj/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-09-03 03:55:57,735 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-09-03 03:55:57,735 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-09-03 03:55:57,736 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-09-03 03:55:57,736 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-09-03 03:55:57,737 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nehaashokj/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
