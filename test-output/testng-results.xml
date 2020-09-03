@@ -1,134 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="10" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Zoopla Automation Test Suite" duration-ms="226161" started-at="2020-09-03T00:00:38 PDT" finished-at="2020-09-03T00:04:24 PDT">
+  <suite name="Zoopla Automation Test Suite" duration-ms="252577" started-at="2020-09-03T03:36:11 PDT" finished-at="2020-09-03T03:40:23 PDT">
     <groups>
     </groups>
-    <test name="Zoopla Search Test Cases" duration-ms="226161" started-at="2020-09-03T00:00:38 PDT" finished-at="2020-09-03T00:04:24 PDT">
+    <test name="Zoopla Search Test Cases" duration-ms="252577" started-at="2020-09-03T03:36:11 PDT" finished-at="2020-09-03T03:40:23 PDT">
       <class name="com.zoopla.test.Fiftyproptest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.test.Fiftyproptest@6aa7b67f]" name="setup" is-config="true" duration-ms="40916" started-at="2020-09-03T00:00:38 PDT" finished-at="2020-09-03T00:01:19 PDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.test.Fiftyproptest@e3994ef]" name="setup" is-config="true" duration-ms="84071" started-at="2020-09-03T03:36:11 PDT" finished-at="2020-09-03T03:37:35 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Varifyagentlogotest()[pri:1, instance:com.zoopla.test.Fiftyproptest@6aa7b67f]" name="Varifyagentlogotest" duration-ms="144" started-at="2020-09-03T00:03:35 PDT" description="Agent Logo" finished-at="2020-09-03T00:03:35 PDT">
+        <test-method status="PASS" signature="Varifyagentlogotest()[pri:1, instance:com.zoopla.test.Fiftyproptest@e3994ef]" name="Varifyagentlogotest" duration-ms="84" started-at="2020-09-03T03:40:13 PDT" description="Agent Logo" finished-at="2020-09-03T03:40:13 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Varifyagentlogotest -->
-        <test-method status="PASS" signature="Varifyagentnametest()[pri:2, instance:com.zoopla.test.Fiftyproptest@6aa7b67f]" name="Varifyagentnametest" duration-ms="47" started-at="2020-09-03T00:03:35 PDT" description="Agent Name" finished-at="2020-09-03T00:03:35 PDT">
+        <test-method status="PASS" signature="Varifyagentnametest()[pri:2, instance:com.zoopla.test.Fiftyproptest@e3994ef]" name="Varifyagentnametest" duration-ms="94" started-at="2020-09-03T03:40:13 PDT" description="Agent Name" finished-at="2020-09-03T03:40:13 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Varifyagentnametest -->
-        <test-method status="FAIL" signature="Varifyagentnotest()[pri:3, instance:com.zoopla.test.Fiftyproptest@6aa7b67f]" name="Varifyagentnotest" duration-ms="30379" started-at="2020-09-03T00:03:35 PDT" description="Agent Mobil Number" finished-at="2020-09-03T00:04:06 PDT">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Timeout loading page after 30000ms
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BRTL059', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13828, moz:profile: C:\Users\nehaashokj\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b201b5d3-a0fb-4613-861b-6f89df9bd606]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Timeout loading page after 30000ms
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BRTL059', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13828, moz:profile: C:\Users\nehaashokj\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b201b5d3-a0fb-4613-861b-6f89df9bd606
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
-at com.sun.proxy.$Proxy21.click(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
-at com.zoopla.pages.Fiftyproppage.agentmobileno(Fiftyproppage.java:50)
-at com.zoopla.test.Fiftyproptest.Varifyagentnotest(Fiftyproptest.java:71)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Varifyagentnotest()[pri:3, instance:com.zoopla.test.Fiftyproptest@e3994ef]" name="Varifyagentnotest" duration-ms="2663" started-at="2020-09-03T03:40:13 PDT" description="Agent Mobil Number" finished-at="2020-09-03T03:40:16 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Varifyagentnotest -->
-        <test-method status="PASS" signature="Validateagentnametest()[pri:4, instance:com.zoopla.test.Fiftyproptest@6aa7b67f]" name="Validateagentnametest" duration-ms="39" started-at="2020-09-03T00:04:06 PDT" description="validate agent name" finished-at="2020-09-03T00:04:06 PDT">
+        <test-method status="PASS" signature="Validateagentnametest()[pri:4, instance:com.zoopla.test.Fiftyproptest@e3994ef]" name="Validateagentnametest" duration-ms="609" started-at="2020-09-03T03:40:16 PDT" description="validate agent name" finished-at="2020-09-03T03:40:17 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validateagentnametest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zoopla.test.Fiftyproptest@6aa7b67f]" name="teardown" is-config="true" duration-ms="14672" started-at="2020-09-03T00:04:06 PDT" finished-at="2020-09-03T00:04:21 PDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zoopla.test.Fiftyproptest@e3994ef]" name="teardown" is-config="true" duration-ms="2796" started-at="2020-09-03T03:40:17 PDT" finished-at="2020-09-03T03:40:19 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.zoopla.test.Fiftyproptest -->
       <class name="com.zoopla.test.Propertytest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.test.Propertytest@205df5dc]" name="setup" is-config="true" duration-ms="56366" started-at="2020-09-03T00:01:19 PDT" finished-at="2020-09-03T00:02:15 PDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.test.Propertytest@7048535f]" name="setup" is-config="true" duration-ms="60317" started-at="2020-09-03T03:37:35 PDT" finished-at="2020-09-03T03:38:35 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Varifytitletest()[pri:1, instance:com.zoopla.test.Propertytest@205df5dc]" name="Varifytitletest" duration-ms="2031" started-at="2020-09-03T00:03:20 PDT" description="Zoopla Title Test" finished-at="2020-09-03T00:03:22 PDT">
+        <test-method status="PASS" signature="Varifytitletest()[pri:1, instance:com.zoopla.test.Propertytest@7048535f]" name="Varifytitletest" duration-ms="7215" started-at="2020-09-03T03:39:39 PDT" description="Zoopla Title Test" finished-at="2020-09-03T03:39:46 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Varifytitletest -->
-        <test-method status="PASS" signature="VarifyListofPropTest()[pri:2, instance:com.zoopla.test.Propertytest@205df5dc]" name="VarifyListofPropTest" duration-ms="232" started-at="2020-09-03T00:03:22 PDT" description="Zoopla Property List Page" finished-at="2020-09-03T00:03:22 PDT">
+        <test-method status="PASS" signature="VarifyListofPropTest()[pri:2, instance:com.zoopla.test.Propertytest@7048535f]" name="VarifyListofPropTest" duration-ms="454" started-at="2020-09-03T03:39:46 PDT" description="Zoopla Property List Page" finished-at="2020-09-03T03:39:46 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VarifyListofPropTest -->
-        <test-method status="PASS" signature="VarifyPropertyListValuesTest()[pri:3, instance:com.zoopla.test.Propertytest@205df5dc]" name="VarifyPropertyListValuesTest" duration-ms="6585" started-at="2020-09-03T00:03:22 PDT" description="Get List of Property values" finished-at="2020-09-03T00:03:29 PDT">
+        <test-method status="PASS" signature="VarifyPropertyListValuesTest()[pri:3, instance:com.zoopla.test.Propertytest@7048535f]" name="VarifyPropertyListValuesTest" duration-ms="16765" started-at="2020-09-03T03:39:46 PDT" description="Get List of Property values" finished-at="2020-09-03T03:40:03 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VarifyPropertyListValuesTest -->
-        <test-method status="PASS" signature="Varify5thPropertyValuesTest()[pri:4, instance:com.zoopla.test.Propertytest@205df5dc]" name="Varify5thPropertyValuesTest" duration-ms="6263" started-at="2020-09-03T00:03:29 PDT" description="Get Fifty property values from list" finished-at="2020-09-03T00:03:35 PDT">
+        <test-method status="PASS" signature="Varify5thPropertyValuesTest()[pri:4, instance:com.zoopla.test.Propertytest@7048535f]" name="Varify5thPropertyValuesTest" duration-ms="10064" started-at="2020-09-03T03:40:03 PDT" description="Get Fifty property values from list" finished-at="2020-09-03T03:40:13 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Varify5thPropertyValuesTest -->
-        <test-method status="FAIL" signature="teardown()[pri:0, instance:com.zoopla.test.Propertytest@205df5dc]" name="teardown" is-config="true" duration-ms="3184" started-at="2020-09-03T00:04:21 PDT" finished-at="2020-09-03T00:04:24 PDT">
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:com.zoopla.test.Propertytest@7048535f]" name="teardown" is-config="true" duration-ms="2807" started-at="2020-09-03T03:40:19 PDT" finished-at="2020-09-03T03:40:22 PDT">
           <exception class="java.lang.StackOverflowError">
             <full-stacktrace>
               <![CDATA[java.lang.StackOverflowError
-at java.io.Writer.write(Writer.java:157)
-at java.io.PrintStream.write(PrintStream.java:525)
-at java.io.PrintStream.print(PrintStream.java:669)
-at java.io.PrintStream.println(PrintStream.java:806)
+at sun.nio.cs.SingleByte.withResult(SingleByte.java:44)
+at sun.nio.cs.SingleByte.access$000(SingleByte.java:38)
+at sun.nio.cs.SingleByte$Encoder.encodeArrayLoop(SingleByte.java:187)
+at sun.nio.cs.SingleByte$Encoder.encodeLoop(SingleByte.java:219)
+at java.nio.charset.CharsetEncoder.encode(CharsetEncoder.java:579)
+at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:271)
+at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+at java.io.PrintStream.newLine(PrintStream.java:545)
+at java.io.PrintStream.println(PrintStream.java:807)
 at com.zoopla.utility.EventListener.onException(EventListener.java:56)
 at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1142,13 +1081,6 @@ at com.zoopla.utility.Testutility.takeScreenshot_failedtestEndOfTest(Testutility
 at com.zoopla.utility.EventListener.onException(EventListener.java:58)
 at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-at com.sun.proxy.$Proxy14.onException(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-at com.sun.proxy.$Proxy15.getScreenshotAs(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-at com.zoopla.utility.Testutility.takeScreenshot_failedtestEndOfTest(Testutility.java:18)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.StackOverflowError -->
@@ -1157,19 +1089,19 @@ at com.zoopla.utility.Testutility.takeScreenshot_failedtestEndOfTest(Testutility
         </test-method> <!-- teardown -->
       </class> <!-- com.zoopla.test.Propertytest -->
       <class name="com.zoopla.test.Searchtest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.test.Searchtest@2721044]" name="setup" is-config="true" duration-ms="41193" started-at="2020-09-03T00:02:15 PDT" finished-at="2020-09-03T00:02:56 PDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.test.Searchtest@d5ce97f]" name="setup" is-config="true" duration-ms="36415" started-at="2020-09-03T03:38:35 PDT" finished-at="2020-09-03T03:39:11 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VarifyHomepagelabeltest()[pri:1, instance:com.zoopla.test.Searchtest@2721044]" name="VarifyHomepagelabeltest" duration-ms="2329" started-at="2020-09-03T00:02:56 PDT" description="Zoopla Home Page" finished-at="2020-09-03T00:02:59 PDT">
+        <test-method status="PASS" signature="VarifyHomepagelabeltest()[pri:1, instance:com.zoopla.test.Searchtest@d5ce97f]" name="VarifyHomepagelabeltest" duration-ms="2595" started-at="2020-09-03T03:39:12 PDT" description="Zoopla Home Page" finished-at="2020-09-03T03:39:14 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VarifyHomepagelabeltest -->
-        <test-method status="PASS" signature="Varifycitynametest()[pri:2, instance:com.zoopla.test.Searchtest@2721044]" name="Varifycitynametest" duration-ms="20768" started-at="2020-09-03T00:02:59 PDT" description="Zoopla City Search Page" finished-at="2020-09-03T00:03:20 PDT">
+        <test-method status="PASS" signature="Varifycitynametest()[pri:2, instance:com.zoopla.test.Searchtest@d5ce97f]" name="Varifycitynametest" duration-ms="23634" started-at="2020-09-03T03:39:15 PDT" description="Zoopla City Search Page" finished-at="2020-09-03T03:39:38 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Varifycitynametest -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.zoopla.test.Searchtest@2721044]" name="teardown" is-config="true" duration-ms="-1599116664335" started-at="2020-09-03T00:04:24 PDT" finished-at="1969-12-31T16:00:00 PST">
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.zoopla.test.Searchtest@d5ce97f]" name="teardown" is-config="true" duration-ms="-1599129623482" started-at="2020-09-03T03:40:23 PDT" finished-at="1969-12-31T16:00:00 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

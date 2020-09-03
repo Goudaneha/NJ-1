@@ -6,16 +6,14 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Zoopla Search Test Cases(failed)">
     <classes>
-      <class name="com.zoopla.test.Propertytest">
+      <class name="com.zoopla.test.Searchtest">
         <methods>
-          <include name="Varify5thPropertyValuesTest"/>
-          <include name="VarifyListofPropTest"/>
-          <include name="Varifytitletest"/>
-          <include name="VarifyPropertyListValuesTest"/>
-          <include name="teardown"/>
           <include name="setup"/>
+          <include name="Varifycitynametest"/>
+          <include name="teardown"/>
+          <include name="VarifyHomepagelabeltest"/>
         </methods>
-      </class> <!-- com.zoopla.test.Propertytest -->
+      </class> <!-- com.zoopla.test.Searchtest -->
       <class name="com.zoopla.test.Fiftyproptest">
         <methods>
           <include name="Varifyagentlogotest"/>
@@ -26,14 +24,16 @@
           <include name="Varifyagentnotest"/>
         </methods>
       </class> <!-- com.zoopla.test.Fiftyproptest -->
-      <class name="com.zoopla.test.Searchtest">
+      <class name="com.zoopla.test.Propertytest">
         <methods>
-          <include name="setup"/>
-          <include name="Varifycitynametest"/>
+          <include name="Varify5thPropertyValuesTest"/>
+          <include name="VarifyListofPropTest"/>
+          <include name="Varifytitletest"/>
+          <include name="VarifyPropertyListValuesTest"/>
           <include name="teardown"/>
-          <include name="VarifyHomepagelabeltest"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.zoopla.test.Searchtest -->
+      </class> <!-- com.zoopla.test.Propertytest -->
     </classes>
   </test> <!-- Zoopla Search Test Cases(failed) -->
 </suite> <!-- Failed suite [Zoopla Automation Test Suite] -->
