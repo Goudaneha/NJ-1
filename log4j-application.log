@@ -33,3 +33,38 @@
 2020-09-03 03:55:57,736 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2020-09-03 03:55:57,736 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2020-09-03 03:55:57,737 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nehaashokj/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-09-03 04:04:55,459  INFO [main] TestBase:28 - ***************************Property Test Execution starts******************************
+2020-09-03 04:06:01,675  INFO [main] TestBase:28 - ******************Search Home Test Execution starts***********************
+2020-09-03 04:06:42,833  INFO [main] TestBase:38 - ******************starts Label test***********************
+2020-09-03 04:06:44,986  INFO [main] TestBase:44 - ******************ending Label test***********************
+2020-09-03 04:06:45,279  INFO [main] TestBase:52 - ****************starts city name test*********************
+2020-09-03 04:07:00,680  INFO [main] TestBase:56 - ****************ending city name test*********************
+2020-09-03 04:07:00,698  INFO [main] TestBase:45 - ****************starts Property page title test*********************
+2020-09-03 04:07:02,710  INFO [main] TestBase:50 - ****************ending Property page title test*********************
+2020-09-03 04:07:02,721  INFO [main] TestBase:59 - ****************strats Property list values test*********************
+2020-09-03 04:07:03,002  INFO [main] TestBase:63 - ****************ending Property list values test*********************
+2020-09-03 04:07:03,014  INFO [main] TestBase:69 - ****************strats print Property values test*********************
+2020-09-03 04:07:18,734  INFO [main] TestBase:72 - ****************ending print Property values test*********************
+2020-09-03 04:07:18,746  INFO [main] TestBase:80 - ****************starts click on fifth Property values test*********************
+2020-09-03 04:07:28,934  INFO [main] TestBase:82 - ****************ending click on fifth Property values test*********************
+2020-09-03 04:07:28,945  INFO [main] TestBase:49 - ********Starts Agent log test*********
+2020-09-03 04:07:30,627  INFO [main] TestBase:51 - ****************ending Agent log test*********************
+2020-09-03 04:07:30,640  INFO [main] TestBase:60 - ********starts Agent name test*********
+2020-09-03 04:07:30,696  INFO [main] TestBase:62 - ********ending Agent name test*********
+2020-09-03 04:07:30,708  INFO [main] TestBase:70 - *******************starts Agent phone no test******************
+2020-09-03 04:07:39,397  INFO [main] TestBase:72 - ********ending Agent name test*********
+2020-09-03 04:07:39,408  INFO [main] TestBase:80 - *************starts Agent name varification*****************
+2020-09-03 04:07:39,463  INFO [main] TestBase:82 - *************ending Agent name varification*****************
+2020-09-03 04:07:39,469  INFO [main] TestBase:87 - ********************Test case execution terminates*******************
+2020-09-03 04:07:40,907  INFO [main] TestBase:88 - ***************************Test Execution Terminates******************************
+2020-09-03 04:07:41,752  INFO [main] TestBase:61 - ******************Test Execution Terminated***********************
+2020-09-03 04:07:42,833 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-09-03 04:07:42,835 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-09-03 04:07:42,840 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-09-03 04:07:42,841 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-09-03 04:07:42,843 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nehaashokj/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-09-03 04:07:43,604 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-09-03 04:07:43,606 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-09-03 04:07:43,607 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-09-03 04:07:43,607 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-09-03 04:07:43,610 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nehaashokj/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

@@ -2,76 +2,76 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Zoopla Automation Test Suite" duration-ms="289643" started-at="2020-09-03T03:51:01 PDT" finished-at="2020-09-03T03:55:50 PDT">
+  <suite name="Zoopla Automation Test Suite" duration-ms="218289" started-at="2020-09-03T04:04:03 PDT" finished-at="2020-09-03T04:07:41 PDT">
     <groups>
     </groups>
-    <test name="Zoopla Search Test Cases" duration-ms="289643" started-at="2020-09-03T03:51:01 PDT" finished-at="2020-09-03T03:55:50 PDT">
+    <test name="Zoopla Search Test Cases" duration-ms="218289" started-at="2020-09-03T04:04:03 PDT" finished-at="2020-09-03T04:07:41 PDT">
       <class name="com.zoopla.test.Fiftyproptest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.test.Fiftyproptest@4992613f]" name="setup" is-config="true" duration-ms="39851" started-at="2020-09-03T03:51:01 PDT" finished-at="2020-09-03T03:51:40 PDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.test.Fiftyproptest@7ce9e05a]" name="setup" is-config="true" duration-ms="51974" started-at="2020-09-03T04:04:03 PDT" finished-at="2020-09-03T04:04:55 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Varifyagentlogotest()[pri:1, instance:com.zoopla.test.Fiftyproptest@4992613f]" name="Varifyagentlogotest" duration-ms="10477" started-at="2020-09-03T03:55:19 PDT" description="Agent Logo" finished-at="2020-09-03T03:55:30 PDT">
+        <test-method status="PASS" signature="Varifyagentlogotest()[pri:1, instance:com.zoopla.test.Fiftyproptest@7ce9e05a]" name="Varifyagentlogotest" duration-ms="1688" started-at="2020-09-03T04:07:28 PDT" description="Agent Logo" finished-at="2020-09-03T04:07:30 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Varifyagentlogotest -->
-        <test-method status="PASS" signature="Varifyagentnametest()[pri:2, instance:com.zoopla.test.Fiftyproptest@4992613f]" name="Varifyagentnametest" duration-ms="184" started-at="2020-09-03T03:55:30 PDT" description="Agent Name" finished-at="2020-09-03T03:55:30 PDT">
+        <test-method status="PASS" signature="Varifyagentnametest()[pri:2, instance:com.zoopla.test.Fiftyproptest@7ce9e05a]" name="Varifyagentnametest" duration-ms="62" started-at="2020-09-03T04:07:30 PDT" description="Agent Name" finished-at="2020-09-03T04:07:30 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Varifyagentnametest -->
-        <test-method status="PASS" signature="Varifyagentnotest()[pri:3, instance:com.zoopla.test.Fiftyproptest@4992613f]" name="Varifyagentnotest" duration-ms="5268" started-at="2020-09-03T03:55:30 PDT" description="Agent Mobil Number" finished-at="2020-09-03T03:55:35 PDT">
+        <test-method status="PASS" signature="Varifyagentnotest()[pri:3, instance:com.zoopla.test.Fiftyproptest@7ce9e05a]" name="Varifyagentnotest" duration-ms="8692" started-at="2020-09-03T04:07:30 PDT" description="Agent Mobil Number" finished-at="2020-09-03T04:07:39 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Varifyagentnotest -->
-        <test-method status="PASS" signature="Validateagentnametest()[pri:4, instance:com.zoopla.test.Fiftyproptest@4992613f]" name="Validateagentnametest" duration-ms="345" started-at="2020-09-03T03:55:35 PDT" description="validate agent name" finished-at="2020-09-03T03:55:35 PDT">
+        <test-method status="PASS" signature="Validateagentnametest()[pri:4, instance:com.zoopla.test.Fiftyproptest@7ce9e05a]" name="Validateagentnametest" duration-ms="61" started-at="2020-09-03T04:07:39 PDT" description="validate agent name" finished-at="2020-09-03T04:07:39 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validateagentnametest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zoopla.test.Fiftyproptest@4992613f]" name="teardown" is-config="true" duration-ms="13812" started-at="2020-09-03T03:55:35 PDT" finished-at="2020-09-03T03:55:49 PDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zoopla.test.Fiftyproptest@7ce9e05a]" name="teardown" is-config="true" duration-ms="1438" started-at="2020-09-03T04:07:39 PDT" finished-at="2020-09-03T04:07:40 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.zoopla.test.Fiftyproptest -->
       <class name="com.zoopla.test.Propertytest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.test.Propertytest@7ce9e05a]" name="setup" is-config="true" duration-ms="54132" started-at="2020-09-03T03:51:40 PDT" finished-at="2020-09-03T03:52:35 PDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.test.Propertytest@11a00961]" name="setup" is-config="true" duration-ms="66218" started-at="2020-09-03T04:04:55 PDT" finished-at="2020-09-03T04:06:01 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Varifytitletest()[pri:1, instance:com.zoopla.test.Propertytest@7ce9e05a]" name="Varifytitletest" duration-ms="8553" started-at="2020-09-03T03:54:43 PDT" description="Zoopla Title Test" finished-at="2020-09-03T03:54:51 PDT">
+        <test-method status="PASS" signature="Varifytitletest()[pri:1, instance:com.zoopla.test.Propertytest@11a00961]" name="Varifytitletest" duration-ms="2018" started-at="2020-09-03T04:07:00 PDT" description="Zoopla Title Test" finished-at="2020-09-03T04:07:02 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Varifytitletest -->
-        <test-method status="PASS" signature="VarifyListofPropTest()[pri:2, instance:com.zoopla.test.Propertytest@7ce9e05a]" name="VarifyListofPropTest" duration-ms="1400" started-at="2020-09-03T03:54:51 PDT" description="Zoopla Property List Page" finished-at="2020-09-03T03:54:52 PDT">
+        <test-method status="PASS" signature="VarifyListofPropTest()[pri:2, instance:com.zoopla.test.Propertytest@11a00961]" name="VarifyListofPropTest" duration-ms="286" started-at="2020-09-03T04:07:02 PDT" description="Zoopla Property List Page" finished-at="2020-09-03T04:07:03 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VarifyListofPropTest -->
-        <test-method status="PASS" signature="VarifyPropertyListValuesTest()[pri:3, instance:com.zoopla.test.Propertytest@7ce9e05a]" name="VarifyPropertyListValuesTest" duration-ms="18219" started-at="2020-09-03T03:54:52 PDT" description="Get List of Property values" finished-at="2020-09-03T03:55:11 PDT">
+        <test-method status="PASS" signature="VarifyPropertyListValuesTest()[pri:3, instance:com.zoopla.test.Propertytest@11a00961]" name="VarifyPropertyListValuesTest" duration-ms="15724" started-at="2020-09-03T04:07:03 PDT" description="Get List of Property values" finished-at="2020-09-03T04:07:18 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VarifyPropertyListValuesTest -->
-        <test-method status="PASS" signature="Varify5thPropertyValuesTest()[pri:4, instance:com.zoopla.test.Propertytest@7ce9e05a]" name="Varify5thPropertyValuesTest" duration-ms="8370" started-at="2020-09-03T03:55:11 PDT" description="Get Fifty property values from list" finished-at="2020-09-03T03:55:19 PDT">
+        <test-method status="PASS" signature="Varify5thPropertyValuesTest()[pri:4, instance:com.zoopla.test.Propertytest@11a00961]" name="Varify5thPropertyValuesTest" duration-ms="10192" started-at="2020-09-03T04:07:18 PDT" description="Get Fifty property values from list" finished-at="2020-09-03T04:07:28 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Varify5thPropertyValuesTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zoopla.test.Propertytest@7ce9e05a]" name="teardown" is-config="true" duration-ms="984" started-at="2020-09-03T03:55:49 PDT" finished-at="2020-09-03T03:55:50 PDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zoopla.test.Propertytest@11a00961]" name="teardown" is-config="true" duration-ms="844" started-at="2020-09-03T04:07:40 PDT" finished-at="2020-09-03T04:07:41 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.zoopla.test.Propertytest -->
       <class name="com.zoopla.test.Searchtest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.test.Searchtest@11a00961]" name="setup" is-config="true" duration-ms="102232" started-at="2020-09-03T03:52:35 PDT" finished-at="2020-09-03T03:54:17 PDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.test.Searchtest@2b61a019]" name="setup" is-config="true" duration-ms="40936" started-at="2020-09-03T04:06:01 PDT" finished-at="2020-09-03T04:06:42 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VarifyHomepagelabeltest()[pri:1, instance:com.zoopla.test.Searchtest@11a00961]" name="VarifyHomepagelabeltest" duration-ms="2582" started-at="2020-09-03T03:54:17 PDT" description="Zoopla Home Page" finished-at="2020-09-03T03:54:20 PDT">
+        <test-method status="PASS" signature="VarifyHomepagelabeltest()[pri:1, instance:com.zoopla.test.Searchtest@2b61a019]" name="VarifyHomepagelabeltest" duration-ms="2277" started-at="2020-09-03T04:06:42 PDT" description="Zoopla Home Page" finished-at="2020-09-03T04:06:44 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VarifyHomepagelabeltest -->
-        <test-method status="PASS" signature="Varifycitynametest()[pri:2, instance:com.zoopla.test.Searchtest@11a00961]" name="Varifycitynametest" duration-ms="20696" started-at="2020-09-03T03:54:22 PDT" description="Zoopla City Search Page" finished-at="2020-09-03T03:54:42 PDT">
+        <test-method status="PASS" signature="Varifycitynametest()[pri:2, instance:com.zoopla.test.Searchtest@2b61a019]" name="Varifycitynametest" duration-ms="15406" started-at="2020-09-03T04:06:45 PDT" description="Zoopla City Search Page" finished-at="2020-09-03T04:07:00 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Varifycitynametest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zoopla.test.Searchtest@11a00961]" name="teardown" is-config="true" duration-ms="1" started-at="2020-09-03T03:55:50 PDT" finished-at="2020-09-03T03:55:50 PDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zoopla.test.Searchtest@2b61a019]" name="teardown" is-config="true" duration-ms="2" started-at="2020-09-03T04:07:41 PDT" finished-at="2020-09-03T04:07:41 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
