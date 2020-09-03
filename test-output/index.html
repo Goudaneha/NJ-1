@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Zoopla_Automation_Test_Suite">
-              <span class="suite-name border-passed">Zoopla Automation Test Suite</span>
+              <span class="suite-name border-failed">Zoopla Automation Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Zoopla_Automation_Test_Suite">
-                    <span>D:\NJ\TestAutomation-1\testng-sanity.xml</span>
+                    <span>D:\NJ\TestAutomation-1\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Zoopla_Automation_Test_Suite" class="hide-methods failed suite-Zoopla_Automation_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Zoopla_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Zoopla_Automation_Test_Suite" class="show-methods failed suite-Zoopla_Automation_Test_Suite"> (show)</a> <!-- show-methods failed suite-Zoopla_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Zoopla_Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoopla_Automation_Test_Suite" title="com.zoopla.test.Fiftyproptest" hash-for-method="Varifyagentnotest">Varifyagentnotest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Zoopla_Automation_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,6 +122,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Zoopla_Automation_Test_Suite" title="com.zoopla.test.Propertytest" hash-for-method="Varify5thPropertyValuesTest">Varify5thPropertyValuesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoopla_Automation_Test_Suite" title="com.zoopla.test.Searchtest" hash-for-method="VarifyHomepagelabeltest">VarifyHomepagelabeltest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -132,7 +151,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Zoopla_Automation_Test_Suite" title="com.zoopla.test.Fiftyproptest" hash-for-method="Varifyagentnotest">Varifyagentnotest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoopla_Automation_Test_Suite" title="com.zoopla.test.Searchtest" hash-for-method="Varifycitynametest">Varifycitynametest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -152,6 +171,45 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Zoopla_Automation_Test_Suite" class="panel Zoopla_Automation_Test_Suite">
+          <div class="suite-Zoopla_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.zoopla.test.Fiftyproptest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Varifyagentnotest">
+                  </a> <!-- Varifyagentnotest -->
+                  <span class="method-name">Varifyagentnotest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timeout loading page after 30000ms
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;BRTL059&apos;, ip: &apos;192.168.43.245&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13828, moz:profile: C:\Users\nehaashokj\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b201b5d3-a0fb-4613-861b-6f89df9bd606
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.zoopla.pages.Fiftyproppage.agentmobileno(Fiftyproppage.java:50)
+	at com.zoopla.test.Fiftyproptest.Varifyagentnotest(Fiftyproptest.java:71)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Agent Mobil Number)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Zoopla_Automation_Test_Suite-class-failed -->
           <div class="suite-Zoopla_Automation_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -199,6 +257,32 @@
           <div class="suite-Zoopla_Automation_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.zoopla.test.Searchtest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VarifyHomepagelabeltest">
+                  </a> <!-- VarifyHomepagelabeltest -->
+                  <span class="method-name">VarifyHomepagelabeltest</span>
+                  <em>
+(Zoopla Home Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Varifycitynametest">
+                  </a> <!-- Varifycitynametest -->
+                  <span class="method-name">Varifycitynametest</span>
+                  <em>
+(Zoopla City Search Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Zoopla_Automation_Test_Suite-class-passed -->
+          <div class="suite-Zoopla_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.zoopla.test.Fiftyproptest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -229,21 +313,12 @@
 (Agent Name)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Varifyagentnotest">
-                  </a> <!-- Varifyagentnotest -->
-                  <span class="method-name">Varifyagentnotest</span>
-                  <em>
-(Agent Mobil Number)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Zoopla_Automation_Test_Suite-class-passed -->
         </div> <!-- panel Zoopla_Automation_Test_Suite -->
         <div panel-name="test-xml-Zoopla_Automation_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\NJ\TestAutomation-1\testng-sanity.xml</span>
+            <span class="header-content">D:\NJ\TestAutomation-1\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -255,6 +330,7 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Zoopla Search Test Cases&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.zoopla.test.Searchtest&quot;/&gt;
       &lt;class name=&quot;com.zoopla.test.Propertytest&quot;/&gt;
       &lt;class name=&quot;com.zoopla.test.Fiftyproptest&quot;/&gt;
     &lt;/classes&gt;
@@ -270,7 +346,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Zoopla Search Test Cases (2 classes)</span>
+                <span class="test-name">Zoopla Search Test Cases (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -296,44 +372,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VarifyPropertyListValuesTest')
-data.setCell(0, 2, 'com.zoopla.test.Propertytest')
-data.setCell(0, 3, 12300);
+data.setCell(0, 1, 'Varifyagentnotest')
+data.setCell(0, 2, 'com.zoopla.test.Fiftyproptest')
+data.setCell(0, 3, 30379);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Varify5thPropertyValuesTest')
-data.setCell(1, 2, 'com.zoopla.test.Propertytest')
-data.setCell(1, 3, 10356);
+data.setCell(1, 1, 'Varifycitynametest')
+data.setCell(1, 2, 'com.zoopla.test.Searchtest')
+data.setCell(1, 3, 20768);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Varifytitletest')
+data.setCell(2, 1, 'VarifyPropertyListValuesTest')
 data.setCell(2, 2, 'com.zoopla.test.Propertytest')
-data.setCell(2, 3, 2532);
+data.setCell(2, 3, 6585);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Varifyagentnotest')
-data.setCell(3, 2, 'com.zoopla.test.Fiftyproptest')
-data.setCell(3, 3, 1819);
+data.setCell(3, 1, 'Varify5thPropertyValuesTest')
+data.setCell(3, 2, 'com.zoopla.test.Propertytest')
+data.setCell(3, 3, 6263);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Validateagentnametest')
-data.setCell(4, 2, 'com.zoopla.test.Fiftyproptest')
-data.setCell(4, 3, 1727);
+data.setCell(4, 1, 'VarifyHomepagelabeltest')
+data.setCell(4, 2, 'com.zoopla.test.Searchtest')
+data.setCell(4, 3, 2329);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'VarifyListofPropTest')
+data.setCell(5, 1, 'Varifytitletest')
 data.setCell(5, 2, 'com.zoopla.test.Propertytest')
-data.setCell(5, 3, 849);
+data.setCell(5, 3, 2031);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Varifyagentlogotest')
-data.setCell(6, 2, 'com.zoopla.test.Fiftyproptest')
-data.setCell(6, 3, 164);
+data.setCell(6, 1, 'VarifyListofPropTest')
+data.setCell(6, 2, 'com.zoopla.test.Propertytest')
+data.setCell(6, 3, 232);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Varifyagentnametest')
+data.setCell(7, 1, 'Varifyagentlogotest')
 data.setCell(7, 2, 'com.zoopla.test.Fiftyproptest')
-data.setCell(7, 3, 92);
+data.setCell(7, 3, 144);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Varifyagentnametest')
+data.setCell(8, 2, 'com.zoopla.test.Fiftyproptest')
+data.setCell(8, 3, 47);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Validateagentnametest')
+data.setCell(9, 2, 'com.zoopla.test.Fiftyproptest')
+data.setCell(9, 3, 39);
 window.suiteTableData['Zoopla_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-Zoopla_Automation_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Zoopla_Automation_Test_Suite">
               </div> <!-- times-div-Zoopla_Automation_Test_Suite -->
             </div> <!-- times-div -->
@@ -369,46 +453,66 @@ return data;
               <div class="chronological-class-name">com.zoopla.test.Propertytest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">31727 ms</span>
+                <span class="method-start">40924 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zoopla.test.Searchtest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">97291 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <span class="method-name">VarifyHomepagelabeltest</span>
+                <span class="method-start">138555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Varifycitynametest</span>
+                <span class="method-start">141538 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zoopla.test.Propertytest</div> <!-- chronological-class-name -->
+              <div class="test-method">
                 <span class="method-name">Varifytitletest</span>
-                <span class="method-start">67359 ms</span>
+                <span class="method-start">162335 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">VarifyListofPropTest</span>
-                <span class="method-start">70344 ms</span>
+                <span class="method-start">164382 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">VarifyPropertyListValuesTest</span>
-                <span class="method-start">71211 ms</span>
+                <span class="method-start">164625 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Varify5thPropertyValuesTest</span>
-                <span class="method-start">83517 ms</span>
+                <span class="method-start">171218 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.zoopla.test.Fiftyproptest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Varifyagentlogotest</span>
-                <span class="method-start">93890 ms</span>
+                <span class="method-start">177496 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Varifyagentnametest</span>
-                <span class="method-start">94064 ms</span>
+                <span class="method-start">177672 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Varifyagentnotest</span>
-                <span class="method-start">94170 ms</span>
+                <span class="method-start">177731 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Validateagentnametest</span>
-                <span class="method-start">96012 ms</span>
+                <span class="method-start">208151 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">97754 ms</span>
+                <span class="method-start">208200 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -417,7 +521,14 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">teardown</span>
-                <span class="method-start">102422 ms</span>
+                <span class="method-start">222872 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zoopla.test.Searchtest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">226133 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

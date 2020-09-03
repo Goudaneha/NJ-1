@@ -14,7 +14,7 @@
   		<aspectj.version>1.8.10</aspectj.version>    <!-- to generate allure-->
   </properties>
   
-  <build> <!-- to generate allure-->
+  <build> 
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -31,9 +31,9 @@
 				<version>2.20</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/main/resource/testng-sanity.xml</suiteXmlFile>
+						<suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<argLine>
+					<argLine> <!-- to generate allure-->
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
 				</configuration>
@@ -68,9 +68,8 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-
-		</plugins>
-
+        </plugins>
+ 
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>

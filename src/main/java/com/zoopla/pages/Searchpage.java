@@ -39,8 +39,9 @@ public class Searchpage extends TestBase {
 	@Step("Search Home with City Name :{0}") //{0}-- it with display city name at report
 	public Propertypage proppertysearch(String name) throws InterruptedException {
 		textbox.sendKeys(name);		
-		Thread.sleep(2000);
-		search_btn.click();		
+		
+		search_btn.click();	
+		Thread.sleep(3000);
 		return new Propertypage();
 	}
 }

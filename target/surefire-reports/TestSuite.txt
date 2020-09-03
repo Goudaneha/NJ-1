@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 1, Errors: 0, Skipped: 15, Time elapsed: 85.581 s <<< FAILURE! - in TestSuite
+setup(com.zoopla.test.Fiftyproptest)  Time elapsed: 82.422 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timeout loading page after 30000ms
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BRTL059', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 7724, moz:profile: C:\Users\nehaashokj\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9059d869-572d-443a-be0b-fcb89841b97c
+	at com.zoopla.test.Fiftyproptest.setup(Fiftyproptest.java:41)
+

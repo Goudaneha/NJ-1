@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Zoopla Search Test Cases</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 02 02:32:10 PDT 2020</td>
+<td>Started on:</td><td>Thu Sep 03 00:00:38 PDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>105 seconds (105174 ms)</td>
+<tr><td>Total time:</td><td>226 seconds (226161 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,14 +77,8 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.zoopla.test.Propertytest.teardown()'><b>teardown</b><br>Test class: com.zoopla.test.Propertytest</td>
 <td><div><pre>java.lang.StackOverflowError
-	at java.nio.CharBuffer.&lt;init&gt;(CharBuffer.java:281)
-	at java.nio.HeapCharBuffer.&lt;init&gt;(HeapCharBuffer.java:70)
-	at java.nio.CharBuffer.wrap(CharBuffer.java:373)
-	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:265)
-	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
-	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
-	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
-	at java.io.PrintStream.write(PrintStream.java:526)
+	at java.io.Writer.write(Writer.java:157)
+	at java.io.PrintStream.write(PrintStream.java:525)
 	at java.io.PrintStream.print(PrintStream.java:669)
 	at java.io.PrintStream.println(PrintStream.java:806)
 	at com.zoopla.utility.EventListener.onException(EventListener.java:56)
@@ -795,16 +789,16 @@ function toggleAllBoxes() {
 	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
 	at com.zoopla.utility.Testutility.takeScreenshot_failedtestEndOfTest(Testutility.java:18)
 	at com.zoopla.utility.EventListener.onException(EventListener.java:58)
-... Removed 306 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace355677068", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace355677068'><pre>java.lang.StackOverflowError
-	at java.nio.CharBuffer.&lt;init&gt;(CharBuffer.java:281)
-	at java.nio.HeapCharBuffer.&lt;init&gt;(HeapCharBuffer.java:70)
-	at java.nio.CharBuffer.wrap(CharBuffer.java:373)
-	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:265)
-	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
-	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
-	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
-	at java.io.PrintStream.write(PrintStream.java:526)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy14.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at com.sun.proxy.$Proxy15.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.zoopla.utility.Testutility.takeScreenshot_failedtestEndOfTest(Testutility.java:18)
+... Removed 306 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1943867171", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1943867171'><pre>java.lang.StackOverflowError
+	at java.io.Writer.write(Writer.java:157)
+	at java.io.PrintStream.write(PrintStream.java:525)
 	at java.io.PrintStream.print(PrintStream.java:669)
 	at java.io.PrintStream.println(PrintStream.java:806)
 	at com.zoopla.utility.EventListener.onException(EventListener.java:56)
@@ -1821,9 +1815,117 @@ function toggleAllBoxes() {
 	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy14.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at com.sun.proxy.$Proxy15.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.zoopla.utility.Testutility.takeScreenshot_failedtestEndOfTest(Testutility.java:18)
 </pre></div></td>
-<td>2</td>
-<td>com.zoopla.test.Propertytest@e3994ef</td></tr>
+<td>3</td>
+<td>com.zoopla.test.Propertytest@205df5dc</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.zoopla.test.Searchtest.teardown()'><b>teardown</b><br>Test class: com.zoopla.test.Searchtest</td>
+<td></td>
+<td>-1599116664</td>
+<td>com.zoopla.test.Searchtest@2721044</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.zoopla.test.Fiftyproptest.Varifyagentnotest()'><b>Varifyagentnotest</b><br>Test class: com.zoopla.test.Fiftyproptest<br>Test method: Agent Mobil Number</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timeout loading page after 30000ms
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;BRTL059&apos;, ip: &apos;192.168.43.245&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13828, moz:profile: C:\Users\nehaashokj\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b201b5d3-a0fb-4613-861b-6f89df9bd606
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.zoopla.pages.Fiftyproppage.agentmobileno(Fiftyproppage.java:50)
+	at com.zoopla.test.Fiftyproptest.Varifyagentnotest(Fiftyproptest.java:71)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1205133962", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1205133962'><pre>org.openqa.selenium.TimeoutException: Timeout loading page after 30000ms
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;BRTL059&apos;, ip: &apos;192.168.43.245&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13828, moz:profile: C:\Users\nehaashokj\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b201b5d3-a0fb-4613-861b-6f89df9bd606
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.zoopla.pages.Fiftyproppage.agentmobileno(Fiftyproppage.java:50)
+	at com.zoopla.test.Fiftyproptest.Varifyagentnotest(Fiftyproptest.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>30</td>
+<td>com.zoopla.test.Fiftyproptest@6aa7b67f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -1835,43 +1937,48 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.zoopla.test.Fiftyproptest.Validateagentnametest()'><b>Validateagentnametest</b><br>Test class: com.zoopla.test.Fiftyproptest<br>Test method: validate agent name</td>
 <td></td>
-<td>1</td>
-<td>com.zoopla.test.Fiftyproptest@680d4a6a</td></tr>
+<td>0</td>
+<td>com.zoopla.test.Fiftyproptest@6aa7b67f</td></tr>
 <tr>
 <td title='com.zoopla.test.Propertytest.Varify5thPropertyValuesTest()'><b>Varify5thPropertyValuesTest</b><br>Test class: com.zoopla.test.Propertytest<br>Test method: Get Fifty property values from list</td>
 <td></td>
-<td>10</td>
-<td>com.zoopla.test.Propertytest@e3994ef</td></tr>
+<td>6</td>
+<td>com.zoopla.test.Propertytest@205df5dc</td></tr>
+<tr>
+<td title='com.zoopla.test.Searchtest.VarifyHomepagelabeltest()'><b>VarifyHomepagelabeltest</b><br>Test class: com.zoopla.test.Searchtest<br>Test method: Zoopla Home Page</td>
+<td></td>
+<td>2</td>
+<td>com.zoopla.test.Searchtest@2721044</td></tr>
 <tr>
 <td title='com.zoopla.test.Propertytest.VarifyListofPropTest()'><b>VarifyListofPropTest</b><br>Test class: com.zoopla.test.Propertytest<br>Test method: Zoopla Property List Page</td>
 <td></td>
 <td>0</td>
-<td>com.zoopla.test.Propertytest@e3994ef</td></tr>
+<td>com.zoopla.test.Propertytest@205df5dc</td></tr>
 <tr>
 <td title='com.zoopla.test.Propertytest.VarifyPropertyListValuesTest()'><b>VarifyPropertyListValuesTest</b><br>Test class: com.zoopla.test.Propertytest<br>Test method: Get List of Property values</td>
 <td></td>
-<td>12</td>
-<td>com.zoopla.test.Propertytest@e3994ef</td></tr>
+<td>6</td>
+<td>com.zoopla.test.Propertytest@205df5dc</td></tr>
 <tr>
 <td title='com.zoopla.test.Fiftyproptest.Varifyagentlogotest()'><b>Varifyagentlogotest</b><br>Test class: com.zoopla.test.Fiftyproptest<br>Test method: Agent Logo</td>
 <td></td>
 <td>0</td>
-<td>com.zoopla.test.Fiftyproptest@680d4a6a</td></tr>
+<td>com.zoopla.test.Fiftyproptest@6aa7b67f</td></tr>
 <tr>
 <td title='com.zoopla.test.Fiftyproptest.Varifyagentnametest()'><b>Varifyagentnametest</b><br>Test class: com.zoopla.test.Fiftyproptest<br>Test method: Agent Name</td>
 <td></td>
 <td>0</td>
-<td>com.zoopla.test.Fiftyproptest@680d4a6a</td></tr>
+<td>com.zoopla.test.Fiftyproptest@6aa7b67f</td></tr>
 <tr>
-<td title='com.zoopla.test.Fiftyproptest.Varifyagentnotest()'><b>Varifyagentnotest</b><br>Test class: com.zoopla.test.Fiftyproptest<br>Test method: Agent Mobil Number</td>
+<td title='com.zoopla.test.Searchtest.Varifycitynametest()'><b>Varifycitynametest</b><br>Test class: com.zoopla.test.Searchtest<br>Test method: Zoopla City Search Page</td>
 <td></td>
-<td>1</td>
-<td>com.zoopla.test.Fiftyproptest@680d4a6a</td></tr>
+<td>20</td>
+<td>com.zoopla.test.Searchtest@2721044</td></tr>
 <tr>
 <td title='com.zoopla.test.Propertytest.Varifytitletest()'><b>Varifytitletest</b><br>Test class: com.zoopla.test.Propertytest<br>Test method: Zoopla Title Test</td>
 <td></td>
 <td>2</td>
-<td>com.zoopla.test.Propertytest@e3994ef</td></tr>
+<td>com.zoopla.test.Propertytest@205df5dc</td></tr>
 </table><p>
 </body>
 </html>

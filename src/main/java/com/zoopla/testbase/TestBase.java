@@ -62,12 +62,14 @@ public class TestBase {
 	elistener = new  EventListener();
 	event_driver.register(elistener);
 	driver = event_driver;
+	
+		driver.get(prop.getProperty("url"));
+		
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 
 		driver.manage().timeouts().implicitlyWait(Testutility.implicity_time, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(Testutility.pageload_time, TimeUnit.SECONDS);
 
-		driver.get(prop.getProperty("url"));
 			}
 }

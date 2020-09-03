@@ -6,20 +6,10 @@
   </listeners>
   <test thread-count="5" name="Zoopla Search Test Cases(failed)">
     <classes>
-      <class name="com.zoopla.test.Propertytest">
-        <methods>
-          <include name="Varify5thPropertyValuesTest"/>
-          <include name="teardown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.zoopla.test.Propertytest -->
       <class name="com.zoopla.test.Fiftyproptest">
         <methods>
-          <include name="Varifyagentlogotest"/>
-          <include name="Varifyagentnametest"/>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="Validateagentnametest"/>
           <include name="Varifyagentnotest"/>
         </methods>
       </class> <!-- com.zoopla.test.Fiftyproptest -->
