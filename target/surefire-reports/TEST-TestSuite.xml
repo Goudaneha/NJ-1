@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="226.468" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="236.661" tests="16" errors="0" skipped="15" failures="1">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Test_Automation"/>
@@ -13,7 +13,7 @@
     <property name="POM_ARTIFACTID" value="TestAutomation-1"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -29,8 +29,8 @@
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="Test_Automation"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="https://localhost:8800/job/Test_Automation/4/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="https://localhost:8800/job/Test_Automation/8/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#8"/>
     <property name="OneDrive" value="C:\Users\nehaashokj\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Users\nehaashokj\AppData\Local"/>
@@ -41,7 +41,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="4"/>
+    <property name="BUILD_ID" value="8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -57,7 +57,7 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="https://localhost:8800/job/Test_Automation/4/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="https://localhost:8800/job/Test_Automation/8/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Users\NEHAAS~1\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
@@ -80,7 +80,7 @@
     <property name="POM_GROUPID" value="TestAutomation-1"/>
     <property name="user.home" value="C:\Users\nehaashokj"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Test_Automation-4"/>
+    <property name="BUILD_TAG" value="jenkins-Test_Automation-8"/>
     <property name="JENKINS_SERVER_COOKIE" value="4b7ace80a9dba2b8"/>
     <property name="HUDSON_URL" value="https://localhost:8800/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -95,7 +95,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Users\nehaashokj\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
     <property name="java.class.path" value="C:\Users\nehaashokj\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\nehaashokj\apache-maven-3.6.3-bin\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\Users\nehaashokj\apache-maven-3.6.3-bin\apache-maven-3.6.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\nehaashokj\apache-maven-3.6.3-bin\apache-maven-3.6.3 C:\Users\nehaashokj\.jenkins\war\WEB-INF\lib\remoting-4.5.jar C:\Users\nehaashokj\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\nehaashokj\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 59237"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\nehaashokj\apache-maven-3.6.3-bin\apache-maven-3.6.3 C:\Users\nehaashokj\.jenkins\war\WEB-INF\lib\remoting-4.5.jar C:\Users\nehaashokj\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\nehaashokj\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 49671"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_201/bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\nehaashokj\Documents\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\allure\allure-commandline-2.13.5\allure-2.13.5\bin;C:\Users\nehaashokj\AppData\Local\Microsoft\WindowsApps;C:\Users\nehaashokj\AppData\Local\Programs\Git\cmd;C:\Users\nehaashokj\AppData\Roaming\npm"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
@@ -112,7 +112,7 @@
     <property name="HUDSON_HOME" value="C:\Users\nehaashokj\.jenkins"/>
     <property name="PATH+MAVEN" value="C:\Users\nehaashokj\apache-maven-3.6.3-bin\apache-maven-3.6.3/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="https://localhost:8800/job/Test_Automation/4/"/>
+    <property name="BUILD_URL" value="https://localhost:8800/job/Test_Automation/8/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -125,7 +125,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="C:\Users\nehaashokj\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="4"/>
+    <property name="BUILD_NUMBER" value="8"/>
     <property name="JENKINS_URL" value="https://localhost:8800/"/>
     <property name="PROCESSOR_REVISION" value="4501"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
@@ -142,14 +142,78 @@
     <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
   </properties>
-  <testcase name="VarifyHomepagelabeltest" classname="com.zoopla.test.Searchtest" time="2.438"/>
-  <testcase name="Varifycitynametest" classname="com.zoopla.test.Searchtest" time="15.412"/>
-  <testcase name="Varifytitletest" classname="com.zoopla.test.Propertytest" time="2.018"/>
-  <testcase name="VarifyListofPropTest" classname="com.zoopla.test.Propertytest" time="0.3"/>
-  <testcase name="VarifyPropertyListValuesTest" classname="com.zoopla.test.Propertytest" time="15.721"/>
-  <testcase name="Varify5thPropertyValuesTest" classname="com.zoopla.test.Propertytest" time="10.194"/>
-  <testcase name="Varifyagentlogotest" classname="com.zoopla.test.Fiftyproptest" time="1.692"/>
-  <testcase name="Varifyagentnametest" classname="com.zoopla.test.Fiftyproptest" time="0.064"/>
-  <testcase name="Varifyagentnotest" classname="com.zoopla.test.Fiftyproptest" time="8.693"/>
-  <testcase name="Validateagentnametest" classname="com.zoopla.test.Fiftyproptest" time="0.06"/>
+  <testcase name="setup" classname="com.zoopla.test.Fiftyproptest" time="231.084">
+    <failure message="unknown error: net::ERR_CONNECTION_TIMED_OUT&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BRTL059&apos;, ip: &apos;10.240.100.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NEHAAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb5447f42b2b26a083514430caffc69c" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BRTL059', ip: '10.240.100.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NEHAAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bb5447f42b2b26a083514430caffc69c
+	at com.zoopla.test.Fiftyproptest.setup(Fiftyproptest.java:33)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.zoopla.co.uk/'
+Exception occured: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BRTL059', ip: '10.240.100.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NEHAAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bb5447f42b2b26a083514430caffc69c
+]]></system-out>
+    <system-err><![CDATA[ERROR StatusLogger No Log4j 2 configuration file found. Using default configuration (logging only errors to the console), or user programmatically provided configurations. Set system property 'log4j2.debug' to show Log4j 2 internal initialization logging. See https://logging.apache.org/log4j/2.x/manual/configuration.html for instructions on how to configure Log4j 2
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 35931
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 04, 2020 3:54:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.zoopla.test.Propertytest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.zoopla.test.Searchtest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="VarifyHomepagelabeltest" classname="com.zoopla.test.Searchtest" time="0">
+    <skipped message="unknown error: net::ERR_CONNECTION_TIMED_OUT&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BRTL059&apos;, ip: &apos;10.240.100.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NEHAAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb5447f42b2b26a083514430caffc69c"/>
+  </testcase>
+  <testcase name="Varifycitynametest" classname="com.zoopla.test.Searchtest" time="0">
+    <skipped message="unknown error: net::ERR_CONNECTION_TIMED_OUT&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BRTL059&apos;, ip: &apos;10.240.100.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NEHAAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb5447f42b2b26a083514430caffc69c"/>
+  </testcase>
+  <testcase name="Varifytitletest" classname="com.zoopla.test.Propertytest" time="0">
+    <skipped message="unknown error: net::ERR_CONNECTION_TIMED_OUT&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BRTL059&apos;, ip: &apos;10.240.100.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NEHAAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb5447f42b2b26a083514430caffc69c"/>
+  </testcase>
+  <testcase name="VarifyListofPropTest" classname="com.zoopla.test.Propertytest" time="0">
+    <skipped message="unknown error: net::ERR_CONNECTION_TIMED_OUT&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BRTL059&apos;, ip: &apos;10.240.100.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NEHAAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb5447f42b2b26a083514430caffc69c"/>
+  </testcase>
+  <testcase name="VarifyPropertyListValuesTest" classname="com.zoopla.test.Propertytest" time="0">
+    <skipped message="unknown error: net::ERR_CONNECTION_TIMED_OUT&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BRTL059&apos;, ip: &apos;10.240.100.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NEHAAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb5447f42b2b26a083514430caffc69c"/>
+  </testcase>
+  <testcase name="Varify5thPropertyValuesTest" classname="com.zoopla.test.Propertytest" time="0">
+    <skipped message="unknown error: net::ERR_CONNECTION_TIMED_OUT&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BRTL059&apos;, ip: &apos;10.240.100.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NEHAAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb5447f42b2b26a083514430caffc69c"/>
+  </testcase>
+  <testcase name="Varifyagentlogotest" classname="com.zoopla.test.Fiftyproptest" time="0">
+    <skipped message="unknown error: net::ERR_CONNECTION_TIMED_OUT&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BRTL059&apos;, ip: &apos;10.240.100.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NEHAAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb5447f42b2b26a083514430caffc69c"/>
+  </testcase>
+  <testcase name="Varifyagentnametest" classname="com.zoopla.test.Fiftyproptest" time="0">
+    <skipped message="unknown error: net::ERR_CONNECTION_TIMED_OUT&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BRTL059&apos;, ip: &apos;10.240.100.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NEHAAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb5447f42b2b26a083514430caffc69c"/>
+  </testcase>
+  <testcase name="Varifyagentnotest" classname="com.zoopla.test.Fiftyproptest" time="0">
+    <skipped message="unknown error: net::ERR_CONNECTION_TIMED_OUT&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BRTL059&apos;, ip: &apos;10.240.100.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NEHAAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb5447f42b2b26a083514430caffc69c"/>
+  </testcase>
+  <testcase name="Validateagentnametest" classname="com.zoopla.test.Fiftyproptest" time="0">
+    <skipped message="unknown error: net::ERR_CONNECTION_TIMED_OUT&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BRTL059&apos;, ip: &apos;10.240.100.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NEHAAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb5447f42b2b26a083514430caffc69c"/>
+  </testcase>
+  <testcase name="teardown" classname="com.zoopla.test.Fiftyproptest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.zoopla.test.Propertytest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.zoopla.test.Searchtest" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>
