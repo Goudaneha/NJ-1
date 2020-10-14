@@ -10,8 +10,9 @@
   <name>POMTestAutomation-1</name>
   <description>POMTestAutomation-1</description>
   
+  <!-- To generate allure we have to add below properties-->
   <properties>
-  		<aspectj.version>1.8.10</aspectj.version>    <!-- to generate allure-->
+  		<aspectj.version>1.8.10</aspectj.version>    
   </properties>
   
   <build> 
